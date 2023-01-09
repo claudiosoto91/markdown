@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  background: #272635;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+display: flex;
+  gap: 30rem;
+}
+.divText textarea{
+  height: 50rem;
+  width: 30rem;
+  border: none;
+}
+.divPreview{
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  overflow: auto;
+  text-align: center;
+  height: 50rem;
+  width: 50rem;
+  font-size: 2rem
+}
